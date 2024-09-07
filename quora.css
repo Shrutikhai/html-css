@@ -1,0 +1,86 @@
+h3{
+   background-color: antiquewhite !important;
+}
+h1{
+    color: red;
+}
+
+ #signup{
+    background-color: red;
+ }
+ #login{
+    background-color: white;
+ }
+ h3{
+    color: brown;
+ }
+ .upvote{
+    background-color:aqua;
+    color: black;
+
+ }
+ /*descendant selector */
+ .post a {
+    color: purple;
+    background-color: yellow;
+ }
+ 
+ nav ul li {
+    color: yellow;
+ }
+ nav ul li a{
+    color: hotpink;
+ }
+ p + h3{
+    text-decoration: underline;
+ }
+ .upvote + button{
+    background-color: blue;
+    color: white;
+ }
+ input[type="text"]{
+    color: red;
+ }
+ input[type="password"]{
+    color: green;
+ }
+ input[type]{
+    background-color: ghostwhite;
+ }
+ #myid p{
+    color:green;
+ }
+ /*--pseudo class--*/
+ button:hover{
+background-color:black;
+color:white;
+ }
+
+ h3:hover{
+   text-decoration: none;
+ }
+button:active{
+   background-color: hotpink;
+color:black
+}
+p:active{
+   font-weight:bold;
+   color:green;
+}
+input[type="radio"]:checked + label{
+color:red;
+font-weight:bold;
+}
+p:nth-of-tyoe(1n){
+   background-color: blanchedalmond;
+}
+/*pseudo element*/
+p::first-line{
+   color: blue;
+}
+h2::first-letter{
+   color: blue;
+}
+p::selection{
+   background-color:limegreen;
+}
